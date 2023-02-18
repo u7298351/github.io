@@ -1,3 +1,4 @@
+
 /* Colors */
 :root {
   --primary-color: #095256;
@@ -9,11 +10,6 @@
 body {
   font-family: sans-serif;
   font-size: 16px;
-}
-.custom-shape-divider-top-1676720365 {
-  position: relative;
-  height: 120px;
-  overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
