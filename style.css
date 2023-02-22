@@ -101,3 +101,70 @@ nav a:hover {
   text-align: center;
   line-height: 1.5;
 }
+/* ======= Media Queries ======= */
+
+@media only screen and (max-width: 767px) {
+  .intro {
+    height: 100vh;
+  }
+
+  .intro h1 {
+    font-size: 4rem;
+  }
+
+  .intro p {
+    font-size: 1.5rem;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .navbar a {
+    color: #000;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .navbar .menu-toggle {
+    display: block;
+  }
+
+  .navbar .menu-toggle span {
+    background-color: #000;
+  }
+
+  .navbar .menu-toggle:hover span {
+    background-color: #555;
+  }
+
+  .navbar .menu-toggle.active span:nth-of-type(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .navbar .menu-toggle.active span:nth-of-type(2) {
+    opacity: 0;
+  }
+
+  .navbar .menu-toggle.active span:nth-of-type(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+  .navbar .nav-list.active {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar .nav-list.active li {
+    margin: 1rem 0;
+    text-align: center;
+  }
+}
+
+
